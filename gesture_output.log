@@ -1,0 +1,290 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+64, rev:0xC03140[ WARN:0] global ../modules/videoio/src/cap_gstreamer.cpp (1824) handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module v4l2src0 reported: Cannot identify device '/dev/video-1'.
+[ WARN:0] global ../modules/videoio/src/cap_gstreamer.cpp (914) open OpenCV | GStreamer warning: unable to start pipeline
+[ WARN:0] global ../modules/videoio/src/cap_gstreamer.cpp (501) isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from one.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of one.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from two.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of two.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from one.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of one.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from two.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of two.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from four.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of four.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from one.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of one.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from six.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of six.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from one.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of one.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from two.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:01] Decoding of two.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from three.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of three.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from three.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of three.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from four.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of four.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from five.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono
+                                                                            
+[0:02] Decoding of five.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+tcgetattr(): Inappropriate ioctl for device
+
+Directory: /home/pi/TurboPi/FlaskFunctions/voices
+Playing MPEG stream from four.mp3 ...
+MPEG 2.0 layer III, 48 kbit/s, 24000 Hz mono

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Light Follower</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .header {
+            background-color: #FF9800;
+            color: white;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 10;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        .back-button {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        
+        .back-button svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+        
+        .menu-button {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .menu-button svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+        
+        .container {
+            height: calc(100vh - 70px);
+            padding: 20px;
+            overflow-y: auto;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        .container::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #FF9800;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .section p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="/" class="back-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+            </svg>
+        </a>
+        <h1>Light Follower</h1>
+        <div class="menu-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="container">   
+        <div class="section">
+            <h2>About Light Follower</h2>
+            <p>The Light Follower mode allows the rover to follow a light source.</p>
+            <p>This feature uses the camera to find the light and follow it</p>
+        </div>          
+    </div>
+</body>
+</html>

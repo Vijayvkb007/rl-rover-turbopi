@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gesture Recognition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .header {
+            background-color: #FF9800;
+            color: white;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 10;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .back-button {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .back-button svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+
+        .menu-button {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-button svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+
+        .container {
+            height: calc(100vh - 70px);
+            padding: 20px;
+            overflow-y: auto;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #FF9800;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .section p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .instruction-list {
+            list-style-type: none;
+            counter-reset: item;
+        }
+
+        .instruction-list li {
+            counter-increment: item;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 40px;
+            line-height: 1.5;
+        }
+
+        .instruction-list li:before {
+            content: counter(item);
+            background: #FF9800;
+            border-radius: 50%;
+            color: white;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .gesture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gesture-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .gesture-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 10px;
+        }
+
+        .gesture-name {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .gesture-description {
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/" class="back-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+            </svg>
+        </a>
+        <h1>Gesture Recognition</h1>
+        <div class="menu-button">
+            <svg viewBox="0 0 24 24">
+                <path
+                    d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="section">
+            <h2>About Gesture Recognition</h2>
+            <p>The gesture recognition mode allows you to control the rover using hand gestures captured by the camera.
+                The rover will recognize specific hand movements and perform corresponding actions.</p>
+            <p>This feature uses computer vision algorithms to detect and interpret your hand positions and movements in
+                real-time.</p>
+        </div>
+
+        <div class="section">
+            <h2>How to Use</h2>
+            <ol class="instruction-list">
+                <li>Position yourself in front of the camera, ensuring good lighting conditions.</li>
+                <li>Keep your hand within the camera's field of view at all times.</li>
+                <li>Make clear, deliberate gestures as shown in the guide below.</li>
+                <li>Maintain each gesture for at least 1-2 seconds for reliable detection.</li>
+                <li>Avoid rapid movements or switching between gestures too quickly.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Supported Gestures</h2>
+            <div class="gesture-grid">
+                <div class="gesture-card">
+                    <svg class="gesture-icon" viewBox="0 0 24 24">
+                        <path fill="#FF9800"
+                            d="M13,6V11H18V7.75L22.25,12L18,16.25V13H13V18H16.25L12,22.25L7.75,18H11V13H6V16.25L1.75,12L6,7.75V11H11V6H7.75L12,1.75L16.25,6H13Z" />
+                    </svg>
+                    <div class="gesture-name">Move Forward</div>
+                    <div class="gesture-description">Show one to the camera</div>
+                </div>
+                <div class="gesture-card">
+                    <svg class="gesture-icon" viewBox="0 0 24 24">
+                        <path fill="#FF9800"
+                            d="M18,16V11H13V7.75L8.75,12L13,16.25V13H18V18H13.75L18,22.25L22.25,18H18M2,12L6.25,16H11V13H6V18H10.25L6,22.25L1.75,18H6V13H1V16.25L6,16.25V13H6V7.75L1.75,12H6V7.75L6,7.75V11H11V6H6.25L2,9.75V12Z" />
+                    </svg>
+                    <div class="gesture-name">Move Backward</div>
+                    <div class="gesture-description">Show two to the camera</div>
+                </div>
+                <div class="gesture-card">
+                    <svg class="gesture-icon" viewBox="0 0 24 24">
+                        <path fill="#FF9800"
+                            d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z" />
+                    </svg>
+                    <div class="gesture-name">Turn Left</div>
+                    <div class="gesture-description">Show three to the camera</div>
+                </div>
+                <div class="gesture-card">
+                    <svg class="gesture-icon" viewBox="0 0 24 24">
+                        <path fill="#FF9800"
+                            d="M4,10V14H13L9.5,17.5L11.92,19.92L19.84,12L11.92,4.08L9.5,6.5L13,10H4Z" />
+                    </svg>
+                    <div class="gesture-name">Turn Right</div>
+                    <div class="gesture-description">Show four to the camera</div>
+                </div>
+                <div class="gesture-card">
+                    <svg class="gesture-icon" viewBox="0 0 24 24">
+                        <path fill="#FF9800"
+                            d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,10.5A1.5,1.5 0 0,0 10.5,12A1.5,1.5 0 0,0 12,13.5A1.5,1.5 0 0,0 13.5,12A1.5,1.5 0 0,0 12,10.5Z" />
+                    </svg>
+                    <div class="gesture-name">turn clockwise</div>
+                    <div class="gesture-description">Show five to the camera</div>
+                </div>
+                <div class="gesture-card">
+                    <svg class="gesture-icon" viewBox="0 0 24 24">
+                        <path fill="#FF9800"
+                            d="M18,6.83V4H14V8H10V4H6V8H5V19H13.17L18,14.17V6.83M17.19,11H14V15H7V9H10V11H14V9H16V11.81L14.19,13.62L17.19,11M15,16H13V18H15V16Z" />
+                    </svg>
+                    <div class="gesture-name">turn anticlockwise</div>
+                    <div class="gesture-description">Open thumb and pinky finger to the camera </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Tips for Best Performance</h2>
+            <p>• Ensure adequate lighting for better hand detection.</p>
+            <p>• Position yourself against a plain background for optimal recognition.</p>
+            <p>• Keep a distance of approximately 1-2 feet from the camera.</p>
+            <p>• If the rover is not responding to gestures, try adjusting your hand position or lighting conditions.
+            </p>
+        </div>
+
+        <div id="gesture-log" style="white-space: pre; background-color: #222; color: #0f0; padding: 10px"></div>
+        <script>
+            setInterval(() => {
+                fetch("/gesture/log")
+                    .then((res) => res.text())
+                    .then((data) => {
+                        document.getElementById("gesture-log").innerText = data;
+                    });
+            }, 2000);
+        </script>
+
+    </div>
+</body>
+
+</html>
